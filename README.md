@@ -1,8 +1,4 @@
 # My Own Expense Tracker
----
-
-# Expense Tracker
-
 A simple web-based expense tracker built with JavaScript. This application allows users to add, track, and manage their daily expenses efficiently.
 
 ## Features

@@ -1,2 +1,24 @@
-# myown-expense-tracker
-An expense tracker using JavaScript is a simple web app that helps you record and manage your daily expenses. It allows users to input their expenses, categorize them, and view a summary of total spending.
+# My Own Expense Tracker
+Here's a simple GitHub README description for an Expense Tracker using JavaScript:
+
+---
+
+# Expense Tracker
+
+A simple web-based expense tracker built with JavaScript. This application allows users to add, track, and manage their daily expenses efficiently.
+
+## Features
+- Add and delete expenses.
+- Categorize expenses (e.g., food, transport, etc.).
+- View total expenses in real-time.
+- Simple, clean user interface.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## How to Use
+1. Clone this repository : `git clone https://github.com/yusufbigweb/myown-expense-tracker`
+2. Open `index.html` in your browser.
+3. Start tracking your expenses!

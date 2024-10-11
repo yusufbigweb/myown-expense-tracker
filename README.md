@@ -1,6 +1,4 @@
 # My Own Expense Tracker
-Here's a simple GitHub README description for an Expense Tracker using JavaScript:
-
 ---
 
 # Expense Tracker

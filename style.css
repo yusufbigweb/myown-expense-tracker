@@ -64,4 +64,16 @@ table, thead, th{
     padding: 10px;
     background-color: green;
     color: white;
+    text-align: center;
+}
+
+table, tbody, tr{
+    border: 1px solid;
+    background-color: #212121;
+}
+
+table, tbody, tr, td{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
 }

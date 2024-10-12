@@ -1,22 +1,28 @@
-const expenseForm = document.getElementById("expenseForm");
-const expenseList = document.getElementById("expenseList");
+const expenInp = document.querySelector("#expenseForm");
+const expenList = document.querySelector("#expenseList")
 
-expenseForm.addEventListener('submit', function(event){
+expenInp.addEventListener('submit', (event)=>{
+
     event.preventDefault();
 
-    const description = document.getElementById("description").value;
-    const category = document.getElementById("catgory").value;
-    const amount = document.getElementById("amount").value;
+    let description = document.querySelector("#description").value;
+    let catgory = document.querySelector("#catgory").value;
+    let amount = document.querySelector("#amount").value;
 
-    if(document && category && !isNaN(amount)){
-        const newRow = document.createElement = ("tr");
-         newRow.innerHTML = `<td>${description}</td> <td> ${category}</td> <td> ${amount}</td>`;
-        expenseList.appendChild(newRow)
+    if(document && catgory && !isNaN(amount)){
+        let rowNew = document.createElement("tr")
+    
+        rowNew.innerHTML = `<td>${description}</td> <td>${catgory}</td> <td> <i class="fa-solid fa-indian-rupee-sign"></i> ${amount}</td>`;
 
-        document.getElementById("description").value="";
-        document.getElementById("catgory").value="";
-        document.getElementById("amount").value="";
+        expenList.appendChild(rowNew);
 
+    }else{
+        alert("Add Expense: ON FIELD")
     }
 
 })
+const educ = document.getElementById("education")
+educ.innerHTML = `
+<i class="fa-solid fa-indian-rupee-sign">Education</i>
+`
+
